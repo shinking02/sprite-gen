@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "sprite-one -i./icons -r1 -r2 ./_site/sprite",
+    "build": "sprite-one -i./icons -r2 -r4 ./_site/sprite",
     "start": "npm run build && npx http-server -c-1 ./_site"
   },
   "keywords": [],
